@@ -1,0 +1,100 @@
+html, body {
+    margin: 0 100px;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background: url(https://5b0988e595225.cdn.sohucs.com/images/20180427/d19949e24dfd4ab99f48be701f1212e6.jpeg);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header li {
+    display: inline-block;
+    margin: 0 20px;
+  }  
+  
+  header h1 {
+    font-family: Arial;
+    color: brown;
+  }   
+
+  li a {
+    text-decoration: none;
+    color: #8B3626;
+    font-size: 20px;
+    font-family: Arial;
+  }
+
+  li a:hover {
+    color: Gold ;
+  }
+
+  #main {
+      flex: 1;
+      flex-direction: column;
+      background-color: Linen;
+  }
+
+  #main.description {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  h2 {
+      text-align: center;
+      font-family: Georgia, Times;
+  }
+
+  p{
+      text-align: justify;
+      margin: 20px 50px;
+      font-family: Georgia, Times;
+      font-size: 18px;
+  }
+
+  .imgDescription {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  img {
+      width: 300px;
+      height: 550px;
+      border-radius: 5px;
+  }
+
+  .imgDescription p {
+      max-width: 300px;
+      text-align: justify;
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
+  }
+
+  footer {
+    background-color: #CDB79E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+
+  
+
+
